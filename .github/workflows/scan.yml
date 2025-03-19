@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'golang:latest'
+          default: 'golang:tip-bookworm'
 
 # env:
 #   REGISTRY: ghcr.io
