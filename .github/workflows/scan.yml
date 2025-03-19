@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'golang:tip-20250316-bullseye'
+          default: 'golang:bullseye'
 
 # env:
 #   REGISTRY: ghcr.io
