@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'memcached:latest'
+          default: 'golang:latest'
 
 # env:
 #   REGISTRY: ghcr.io
